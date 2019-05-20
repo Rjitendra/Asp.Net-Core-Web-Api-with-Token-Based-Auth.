@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreCodeFirstSample", "EFCoreCodeFirstSample\EFCoreCodeFirstSample.csproj", "{5865233C-030C-49E5-B387-09DAD8582FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{F0288977-D984-4E20-9DA4-DEF691785E5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5865233C-030C-49E5-B387-09DAD8582FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5865233C-030C-49E5-B387-09DAD8582FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5865233C-030C-49E5-B387-09DAD8582FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5865233C-030C-49E5-B387-09DAD8582FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0288977-D984-4E20-9DA4-DEF691785E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0288977-D984-4E20-9DA4-DEF691785E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0288977-D984-4E20-9DA4-DEF691785E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0288977-D984-4E20-9DA4-DEF691785E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98B180A8-4C00-4E2E-A99D-F6182819DF91}
+	EndGlobalSection
+EndGlobal
