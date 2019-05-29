@@ -13,11 +13,21 @@ namespace EFCoreCodeFirstSample.Controllers
     {
         // GET api/values
         private ILoggerManager _logger;
+        //private IRepositoryWrapper _repoWrapper;
 
-        public ValuesController(ILoggerManager logger)
+        public ValuesController(ILoggerManager logger
+            //IRepositoryWrapper repoWrapper
+            )
         {
             _logger = logger;
+            //_repoWrapper = repoWrapper;
         }
+       
+
+       
+        // GET api/values
+        [HttpGet]
+       
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
@@ -26,6 +36,8 @@ namespace EFCoreCodeFirstSample.Controllers
             _logger.LogDebug("Here is debug message from our values controller.");
             _logger.LogWarn("Here is warn message from our values controller.");
             _logger.LogError("Here is error message from our values controller.");
+            //var domesticAccounts = _repoWrapper.Account.FindByCondition(x => x.AccountType.Equals("Domestic"));
+            //var owners = _repoWrapper.Owner.FindAll();
 
             return new string[] { "value1", "value2" };
         }

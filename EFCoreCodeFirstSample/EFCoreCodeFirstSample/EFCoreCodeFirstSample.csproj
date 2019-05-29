@@ -6,12 +6,35 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\EmployeeController.cs" />
+    <Compile Remove="IOwnerRepository.cs" />
+    <Compile Remove="IRepositoryBase.cs" />
+    <Compile Remove="IRepositoryWrapper.cs" />
+    <Compile Remove="Models\DataManager\EmployeeManager.cs" />
+    <Compile Remove="OwnerRepository.cs" />
+    <Compile Remove="RepositoryBase.cs" />
+    <Compile Remove="RepositoryWrapper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\LoggerService\LoggerService.csproj" />
+    <ProjectReference Include="..\Model\Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="nlog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\DataManager\" />
   </ItemGroup>
 
 </Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\personal\\asp core\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj": {}
+    "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj": {}
   },
   "projects": {
-    "C:\\personal\\asp core\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj": {
+    "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\personal\\asp core\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\personal\\asp core\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj",
+        "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj",
         "packagesPath": "C:\\Users\\jbehera\\.nuget\\packages\\",
-        "outputPath": "C:\\personal\\asp core\\EFCoreCodeFirstSample\\LoggerService\\obj\\",
+        "outputPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

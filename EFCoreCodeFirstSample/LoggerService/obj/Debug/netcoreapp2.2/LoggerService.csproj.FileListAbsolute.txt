@@ -6,3 +6,21 @@ C:\personal\asp core\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2
 C:\personal\asp core\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfo.cs
 C:\personal\asp core\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.dll
 C:\personal\asp core\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.pdb
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.deps.json
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.dll
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.pdb
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csprojAssemblyReference.cache
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CoreCompileInputs.cache
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfoInputs.cache
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfo.cs
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.dll
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.pdb
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.deps.json
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.dll
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.pdb
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csprojAssemblyReference.cache
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CoreCompileInputs.cache
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfoInputs.cache
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfo.cs
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.dll
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.pdb

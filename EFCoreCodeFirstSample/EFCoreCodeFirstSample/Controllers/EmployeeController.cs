@@ -14,9 +14,9 @@ namespace EFCoreCodeFirstSample.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        private readonly IDataRepository<Employee> _dataRepository;
+        private readonly IDataRepository<EmployeeDto> _dataRepository;
 
-        public EmployeeController(IDataRepository<Employee> dataRepository)
+        public EmployeeController(IDataRepository<EmployeeDto> dataRepository)
         {
             _dataRepository = dataRepository;
         }
@@ -25,7 +25,7 @@ namespace EFCoreCodeFirstSample.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            IEnumerable<Employee> employees = _dataRepository.GetAll();
+            IEnumerable<EmployeeDto> employees = _dataRepository.GetAll();
             return Ok(employees);
         }
 
@@ -33,7 +33,7 @@ namespace EFCoreCodeFirstSample.Controllers
         [HttpGet("{id}", Name = "Get")]
         public IActionResult Get(long id)
         {
-            Employee employee = _dataRepository.Get(id);
+            EmployeeDto employee = _dataRepository.Get(id);
 
             if (employee == null)
             {
@@ -45,7 +45,7 @@ namespace EFCoreCodeFirstSample.Controllers
 
         // POST: api/Employee
         [HttpPost]
-        public IActionResult Post([FromBody] Employee employee)
+        public IActionResult Post([FromBody] EmployeeDto employee)
         {
             if (employee == null)
             {
@@ -61,14 +61,14 @@ namespace EFCoreCodeFirstSample.Controllers
 
         // PUT: api/Employee/5
         [HttpPut("{id}")]
-        public IActionResult Put(long id, [FromBody] Employee employee)
+        public IActionResult Put(long id, [FromBody] EmployeeDto employee)
         {
             if (employee == null)
             {
                 return BadRequest("Employee is null.");
             }
 
-            Employee employeeToUpdate = _dataRepository.Get(id);
+            EmployeeDto employeeToUpdate = _dataRepository.Get(id);
             if (employeeToUpdate == null)
             {
                 return NotFound("The Employee record couldn't be found.");
@@ -82,7 +82,7 @@ namespace EFCoreCodeFirstSample.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(long id)
         {
-            Employee employee = _dataRepository.Get(id);
+            EmployeeDto employee = _dataRepository.Get(id);
             if (employee == null)
             {
                 return NotFound("The Employee record couldn't be found.");
