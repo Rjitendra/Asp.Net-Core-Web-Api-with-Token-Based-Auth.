@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj": {
-                "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj"
-              },
               "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj": {
                 "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj"
+              },
+              "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj": {
+                "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj"
               }
             }
           }
@@ -68,62 +68,6 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[2.2.0, )"
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
-    "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj",
-        "projectName": "LoggerService",
-        "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\LoggerService.csproj",
-        "packagesPath": "C:\\Users\\jbehera\\.nuget\\packages\\",
-        "outputPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\LoggerService\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\jbehera\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp2.2"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp2.2": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            },
-            "NLog.Extensions.Logging": {
-              "target": "Package",
-              "version": "[1.5.0, )"
             }
           },
           "imports": [
@@ -175,6 +119,58 @@
               "target": "Package",
               "version": "[2.2.4, )"
             },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\jbehera\\.nuget\\packages\\",
+        "outputPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jbehera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

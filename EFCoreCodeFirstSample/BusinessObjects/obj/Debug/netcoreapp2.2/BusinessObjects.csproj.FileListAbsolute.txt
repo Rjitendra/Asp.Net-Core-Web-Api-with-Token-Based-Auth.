@@ -1,9 +1,0 @@
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\BusinessObjects\bin\Debug\netcoreapp2.2\BusinessObjects.deps.json
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\BusinessObjects\bin\Debug\netcoreapp2.2\BusinessObjects.dll
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\BusinessObjects\bin\Debug\netcoreapp2.2\BusinessObjects.pdb
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.csprojAssemblyReference.cache
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.csproj.CoreCompileInputs.cache
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.AssemblyInfoInputs.cache
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.AssemblyInfo.cs
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.dll
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\BusinessObjects\obj\Debug\netcoreapp2.2\BusinessObjects.pdb
