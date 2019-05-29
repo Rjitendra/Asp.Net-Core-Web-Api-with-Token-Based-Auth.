@@ -30,9 +30,6 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj": {
-                "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj"
-              },
               "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj": {
                 "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj"
               }
@@ -159,7 +156,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj": {
+                "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

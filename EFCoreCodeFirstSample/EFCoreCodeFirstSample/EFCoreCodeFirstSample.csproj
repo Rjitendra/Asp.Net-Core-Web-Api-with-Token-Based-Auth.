@@ -7,9 +7,6 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\EmployeeController.cs" />
-    <Compile Remove="IOwnerRepository.cs" />
-    <Compile Remove="IRepositoryBase.cs" />
-    <Compile Remove="IRepositoryWrapper.cs" />
     <Compile Remove="Models\DataManager\EmployeeManager.cs" />
     <Compile Remove="OwnerRepository.cs" />
     <Compile Remove="RepositoryBase.cs" />
@@ -23,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LoggerService\LoggerService.csproj" />
     <ProjectReference Include="..\Model\Model.csproj" />
+    <ProjectReference Include="..\Service\Service.csproj" />
   </ItemGroup>
 
   <ItemGroup>
