@@ -1,10 +1,10 @@
 ﻿
 using EFCoreCodeFirstSample.Models.ErrorDetails;
-//using GlobalErrorHandling.Models;
-using LoggerService;
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
+using Service.Interface;
 using System.Net;
 
 

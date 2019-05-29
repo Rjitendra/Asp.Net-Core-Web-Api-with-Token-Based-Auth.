@@ -1,8 +1,6 @@
-﻿using EFCoreCodeFirstSample;
-using EFCoreCodeFirstSample.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿
+
+using Model.Entity;
 
 namespace Service.Interface
 {

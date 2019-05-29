@@ -1,7 +1,5 @@
-﻿using EFCoreCodeFirstSample;
-using EFCoreCodeFirstSample.Models;
-using Microsoft.EntityFrameworkCore;
-
+﻿using Microsoft.EntityFrameworkCore;
+using Model.Entity;
 
 namespace Model.Contexts
 {

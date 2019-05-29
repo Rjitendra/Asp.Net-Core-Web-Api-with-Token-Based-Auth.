@@ -1,5 +1,5 @@
-﻿using EFCoreCodeFirstSample;
-using EFCoreCodeFirstSample.Models;
+﻿
+using Model.Entity;
 using System;
 using System.Collections.Generic;
 using System.Text;

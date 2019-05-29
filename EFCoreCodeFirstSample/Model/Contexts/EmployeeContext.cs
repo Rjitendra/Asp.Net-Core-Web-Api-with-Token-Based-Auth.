@@ -1,7 +1,6 @@
 ﻿
-
-using EFCoreCodeFirstSample.Models;
 using Microsoft.EntityFrameworkCore;
+using Model.Entity;
 using System;
 
 namespace Model.Contexts

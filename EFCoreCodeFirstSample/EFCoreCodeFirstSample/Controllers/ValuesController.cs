@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Service.Interface;
 
@@ -20,13 +19,7 @@ namespace EFCoreCodeFirstSample.Controllers
             _logger = logger;
             _repoWrapper = repoWrapper;
         }
-       
-
-       
-        // GET api/values
-        [HttpGet]
-       
-        // GET api/values
+       // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {

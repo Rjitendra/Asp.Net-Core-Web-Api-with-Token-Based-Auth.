@@ -45,11 +45,11 @@ C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeF
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\bin\Debug\netcoreapp2.2\EFCoreCodeFirstSample.runtimeconfig.dev.json
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\bin\Debug\netcoreapp2.2\EFCoreCodeFirstSample.dll
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\bin\Debug\netcoreapp2.2\EFCoreCodeFirstSample.pdb
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\bin\Debug\netcoreapp2.2\LoggerService.dll
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\bin\Debug\netcoreapp2.2\Model.dll
-C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\bin\Debug\netcoreapp2.2\LoggerService.pdb
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\bin\Debug\netcoreapp2.2\Model.pdb
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\obj\Debug\netcoreapp2.2\EFCoreCodeFirstSample.RazorTargetAssemblyInfo.cache
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\obj\Debug\netcoreapp2.2\EFCoreCodeFirstSample.csproj.CopyComplete
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\obj\Debug\netcoreapp2.2\EFCoreCodeFirstSample.dll
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\obj\Debug\netcoreapp2.2\EFCoreCodeFirstSample.pdb
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\bin\Debug\netcoreapp2.2\Service.dll
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\EFCoreCodeFirstSample\bin\Debug\netcoreapp2.2\Service.pdb

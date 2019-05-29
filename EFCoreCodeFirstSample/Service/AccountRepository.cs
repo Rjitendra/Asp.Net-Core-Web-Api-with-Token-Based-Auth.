@@ -1,5 +1,6 @@
-﻿using EFCoreCodeFirstSample.Models;
+﻿
 using Model.Contexts;
+using Model.Entity;
 using Service;
 using Service.Interface;
 using System;
