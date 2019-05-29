@@ -6,8 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using EFCoreCodeFirstSample.extension;
 using EFCoreCodeFirstSample.Models;
-//using EFCoreCodeFirstSample.Models.DataManager;
-using EFCoreCodeFirstSample.Repository;
+
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
@@ -25,7 +24,8 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Model.Contexts;
 using NLog;
-using NLog.Extensions.Logging;
+using Service;
+using Service.Interface;
 
 namespace EFCoreCodeFirstSample
 {
@@ -51,8 +51,8 @@ namespace EFCoreCodeFirstSample
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
             services.ConfigureCors();
-            
-//services.ConfigureRepositoryWrapper();
+
+            services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
 
             //services.ConfigureMySqlContext(Configuration);
             services.AddDbContext<ApiContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:DefaultConnection"]));

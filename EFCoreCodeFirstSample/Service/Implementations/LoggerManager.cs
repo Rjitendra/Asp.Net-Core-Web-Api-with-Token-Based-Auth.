@@ -1,8 +1,7 @@
-﻿
+﻿using NLog;
+using Service.Interface;
 
-using NLog;
-
-namespace LoggerService
+namespace Service.Implementations
 {
     public class LoggerManager : ILoggerManager
     {

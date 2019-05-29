@@ -1,14 +1,19 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using Model.Contexts;
+using Service.Interface;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace Service
 {
     public abstract class RepositoryBase<T> : IRepositoryBase<T> where T : class
     {
-        protected RepositoryContext RepositoryContext { get; set; }
+        protected ApiContext RepositoryContext { get; set; }
 
-        public RepositoryBase(RepositoryContext repositoryContext)
+        public RepositoryBase(ApiContext repositoryContext)
         {
             this.RepositoryContext = repositoryContext;
         }

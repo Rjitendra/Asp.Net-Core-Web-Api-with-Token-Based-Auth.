@@ -1,12 +1,16 @@
-﻿using System;
+﻿using EFCoreCodeFirstSample.Models;
+using Model.Contexts;
+using Service;
+using Service.Interface;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Model
+namespace Service
 {
     public class AccountRepository : RepositoryBase<Account>, IAccountRepository
     {
-        public AccountRepository(RepositoryContext repositoryContext)
+        public AccountRepository(ApiContext repositoryContext)
             : base(repositoryContext)
         {
         }

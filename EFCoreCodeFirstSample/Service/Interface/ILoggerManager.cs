@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LoggerService
+namespace Service.Interface
 {
     public interface ILoggerManager
     {

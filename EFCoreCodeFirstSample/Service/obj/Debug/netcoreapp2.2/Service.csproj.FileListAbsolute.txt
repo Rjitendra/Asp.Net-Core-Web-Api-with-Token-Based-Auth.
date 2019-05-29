@@ -7,3 +7,6 @@ C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeF
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfo.cs
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Service\obj\Debug\netcoreapp2.2\Service.dll
 C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Service\obj\Debug\netcoreapp2.2\Service.pdb
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Service\bin\Debug\netcoreapp2.2\Model.dll
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Service\bin\Debug\netcoreapp2.2\Model.pdb
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Service\obj\Debug\netcoreapp2.2\Service.csproj.CopyComplete

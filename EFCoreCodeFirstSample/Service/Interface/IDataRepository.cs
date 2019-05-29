@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EFCoreCodeFirstSample.Repository
+namespace Service.Interface
 {
     public interface IDataRepository<TEntity>
     {
