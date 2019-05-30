@@ -2,9 +2,6 @@
 using Model.Contexts;
 using Model.Entity;
 using Service.Interface;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Service
 {
