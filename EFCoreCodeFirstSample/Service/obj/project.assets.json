@@ -3568,11 +3568,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj",
+      "projectPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\jbehera\\.nuget\\packages\\",
-      "outputPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\obj\\",
+      "outputPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3591,8 +3591,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj": {
-              "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj"
+            "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj": {
+              "projectPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj"
             }
           }
         }

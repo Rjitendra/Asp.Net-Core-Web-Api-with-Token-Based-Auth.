@@ -3473,11 +3473,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj",
+      "projectUniqueName": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj",
       "projectName": "Model",
-      "projectPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj",
+      "projectPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj",
       "packagesPath": "C:\\Users\\jbehera\\.nuget\\packages\\",
-      "outputPath": "C:\\My Projects\\New folder\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\obj\\",
+      "outputPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
