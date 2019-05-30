@@ -13132,11 +13132,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\EFCoreCodeFirstSample\\API.csproj",
+      "projectUniqueName": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\EFCoreCodeFirstSample\\API.csproj",
+      "projectPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\API\\API.csproj",
       "packagesPath": "C:\\Users\\jbehera\\.nuget\\packages\\",
-      "outputPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\EFCoreCodeFirstSample\\obj\\",
+      "outputPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
