@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Service.Interface;
 
@@ -31,6 +32,24 @@ namespace API.Controllers
             var owners = _repoWrapper.Owner.FindAll();
 
             return new string[] { "value1", "value2" };
+        }
+
+        [HttpGet]
+        public IActionResult GetAllOwners()
+        {
+            try
+            {
+                var owners = _repoWrapper.Owner.GetAllOwners();
+
+                _logger.LogInfo($"Returned all owners from database.");
+
+                return Ok(owners);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Something went wrong inside GetAllOwners action: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
         }
     }
 }

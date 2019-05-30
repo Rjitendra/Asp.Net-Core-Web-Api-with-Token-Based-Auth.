@@ -30,6 +30,9 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
+              "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj": {
+                "projectPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj"
+              },
               "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj": {
                 "projectPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj"
               }

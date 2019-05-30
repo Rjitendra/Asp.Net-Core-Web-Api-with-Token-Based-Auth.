@@ -10,6 +10,6 @@ namespace Service.Interface
     {
         IOwnerRepository Owner { get; }
         IAccountRepository Account { get; }
-        void Save();
+        void Save();    
     }
 }

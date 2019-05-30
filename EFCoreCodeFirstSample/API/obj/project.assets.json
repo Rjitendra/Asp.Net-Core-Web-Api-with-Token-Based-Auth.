@@ -13121,6 +13121,7 @@
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
+      "Model >= 1.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 2.2.0",
       "Service >= 1.0.0"
     ]
@@ -13155,6 +13156,9 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
+            "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj": {
+              "projectPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Model\\Model.csproj"
+            },
             "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj": {
               "projectPath": "C:\\My Projects\\Asp.Net-Core-Web-Api-with-Token-Based-Auth\\EFCoreCodeFirstSample\\Service\\Service.csproj"
             }

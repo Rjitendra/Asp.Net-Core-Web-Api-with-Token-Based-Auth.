@@ -1,13 +1,17 @@
-﻿using Model.Contexts;
-using Service.Interface;
+﻿
 namespace Service
 {
+    using Model.Contexts;
+    using Service.Interface;
     public class RepositoryWrapper : IRepositoryWrapper
     {
         private ApiContext _repoContext;
         private IOwnerRepository _owner;
         private IAccountRepository _account;
-
+        public RepositoryWrapper(ApiContext repositoryContext)
+        {
+            _repoContext = repositoryContext;
+        }
         public IOwnerRepository Owner
         {
             get
@@ -34,10 +38,7 @@ namespace Service
             }
         }
 
-        public RepositoryWrapper(ApiContext repositoryContext)
-        {
-            _repoContext = repositoryContext;
-        }
+     
 
         public void Save()
         {
