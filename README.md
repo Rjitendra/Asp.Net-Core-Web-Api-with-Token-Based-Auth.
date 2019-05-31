@@ -1,7 +1,8 @@
 # Asp.NetCoreWebApiWithJwtToken
 Angular 7 and Asp.Net Core Web Api with Token base authentication
 
-#In this tuterial we will be learn above thinks
+# In this tuterial we will be learn above thinks
+
 1-How create token using JWT in asp.net core.
 
 2-JWT based authentication
