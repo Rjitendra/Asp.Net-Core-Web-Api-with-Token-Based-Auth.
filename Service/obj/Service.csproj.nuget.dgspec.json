@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Service\\Service.csproj": {}
+  },
+  "projects": {
+    "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\jbehera\\.nuget\\packages\\",
+        "outputPath": "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jbehera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\jbehera\\.nuget\\packages\\",
+        "outputPath": "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jbehera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Model\\Model.csproj": {
+                "projectPath": "C:\\My Projects\\Asp.NetCoreWebApiWithJwtToken\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.6.4, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

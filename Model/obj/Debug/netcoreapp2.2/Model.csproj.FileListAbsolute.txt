@@ -1,0 +1,27 @@
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\bin\Debug\netcoreapp2.2\Model.deps.json
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\bin\Debug\netcoreapp2.2\Model.dll
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.csprojAssemblyReference.cache
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.csproj.CoreCompileInputs.cache
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\bin\Debug\netcoreapp2.2\Model.pdb
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.dll
+C:\My Projects\New folder\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.pdb
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\bin\Debug\netcoreapp2.2\Model.deps.json
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\bin\Debug\netcoreapp2.2\Model.dll
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\bin\Debug\netcoreapp2.2\Model.pdb
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.csprojAssemblyReference.cache
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.csproj.CoreCompileInputs.cache
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.dll
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Model\obj\Debug\netcoreapp2.2\Model.pdb
+C:\My Projects\Asp.NetCoreWebApiWithJwtToken\Model\bin\Debug\netcoreapp2.2\Model.deps.json
+C:\My Projects\Asp.NetCoreWebApiWithJwtToken\Model\bin\Debug\netcoreapp2.2\Model.dll
+C:\My Projects\Asp.NetCoreWebApiWithJwtToken\Model\bin\Debug\netcoreapp2.2\Model.pdb
+C:\My Projects\Asp.NetCoreWebApiWithJwtToken\Model\obj\Debug\netcoreapp2.2\Model.csprojAssemblyReference.cache
+C:\My Projects\Asp.NetCoreWebApiWithJwtToken\Model\obj\Debug\netcoreapp2.2\Model.csproj.CoreCompileInputs.cache
+C:\My Projects\Asp.NetCoreWebApiWithJwtToken\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfoInputs.cache
+C:\My Projects\Asp.NetCoreWebApiWithJwtToken\Model\obj\Debug\netcoreapp2.2\Model.AssemblyInfo.cs
+C:\My Projects\Asp.NetCoreWebApiWithJwtToken\Model\obj\Debug\netcoreapp2.2\Model.dll
+C:\My Projects\Asp.NetCoreWebApiWithJwtToken\Model\obj\Debug\netcoreapp2.2\Model.pdb
