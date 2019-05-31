@@ -1,43 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using API.extension;
-
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Diagnostics;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpOverrides;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Identity.UI.V3.Pages.Internal;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
-using Model.Contexts;
-using NLog;
-using Service;
-using Service.Interface;
+﻿
 
 namespace API
 {
+    using System.Text;
+    using API.extension;
+    using Microsoft.AspNetCore.Authentication.JwtBearer;
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.HttpOverrides;
+    using Microsoft.AspNetCore.Mvc;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.IdentityModel.Tokens;
+    using Model.Contexts;
+    using Service;
+    using Service.Interface;
     public class Startup
     {
         public Startup(IConfiguration configuration)
         {
-            try
-            {
-                LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "\\nlog.config"));
-                Configuration = configuration;
-            }
-            catch (Exception ex) { throw ex; }
+            Configuration = configuration;
 
         }
 
@@ -49,7 +32,7 @@ namespace API
 
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
-            services.ConfigureCors();
+            // services.ConfigureCors();
 
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
 
@@ -57,22 +40,31 @@ namespace API
             services.AddDbContext<ApiContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:DefaultConnection"]));
             services.AddDbContext<EmployeeContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:DefaultConnection"]));
             //services.AddScoped<IDataRepository<Employee>, EmployeeManager>();
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+         .AddJwtBearer(options =>
+         {
+             options.TokenValidationParameters = new TokenValidationParameters
+             {
+                 ValidateIssuer = true,
+                 ValidateAudience = true,
+                 ValidateLifetime = true,
+                 ValidateIssuerSigningKey = true,
+                 ValidIssuer = Configuration["Jwt:Issuer"],
+                 ValidAudience = Configuration["Jwt:Issuer"],
+                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
+             };
+         });
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                      .AllowAnyMethod()
+                      .AllowAnyHeader()
+                      .AllowCredentials()
+                .Build());
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-           // services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    //.AddJwtBearer(options =>
-    //{
-    //    options.TokenValidationParameters = new TokenValidationParameters
-    //    {
-    //        ValidateIssuer = true,
-    //        ValidateAudience = true,
-    //        ValidateLifetime = true,
-    //        ValidateIssuerSigningKey = true,
 
-    //        ValidIssuer = "http://localhost:5000",
-    //        ValidAudience = "http://localhost:5000",
-    //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("superSecretKey@345"))
-    //    };
-    //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -89,9 +81,7 @@ namespace API
             }
             //app.ConfigureExceptionHandler();
             app.UseHttpsRedirection();
-
             app.UseCors("CorsPolicy");
-            app.UseAuthentication();
             app.UseHttpsRedirection();
             app.UseForwardedHeaders(new ForwardedHeadersOptions
             {
@@ -99,8 +89,7 @@ namespace API
             });
 
             app.UseStaticFiles();
-
-
+            app.UseAuthentication();
             app.UseMvc();
         }
     }

@@ -69,6 +69,14 @@
               "target": "Package",
               "version": "[2.2.3, )"
             },
+            "NLog.Config": {
+              "target": "Package",
+              "version": "[4.6.4, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -185,9 +193,9 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
-            "NLog.Extensions.Logging": {
+            "NLog.Config": {
               "target": "Package",
-              "version": "[1.5.0, )"
+              "version": "[4.6.4, )"
             }
           },
           "imports": [

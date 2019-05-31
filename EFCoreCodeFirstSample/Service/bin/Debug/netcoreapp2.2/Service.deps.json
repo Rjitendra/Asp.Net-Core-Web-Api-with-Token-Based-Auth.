@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "bfd010c8bc4ca1ef2f986e581f26b74be7ea0f9c"
+    "signature": "4a30a77f3cdf3771eba0eb35d4660ee31cf03b3d"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,7 @@
       "Service/1.0.0": {
         "dependencies": {
           "Model": "1.0.0",
-          "NLog.Extensions.Logging": "1.5.0"
+          "NLog.Config": "4.6.4"
         },
         "runtime": {
           "Service.dll": {}
@@ -206,26 +206,21 @@
           }
         }
       },
-      "NLog/4.6.3": {
+      "NLog/4.6.4": {
         "runtime": {
           "lib/netstandard2.0/NLog.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.3.9764"
+            "fileVersion": "4.6.4.10085"
           }
         }
       },
-      "NLog.Extensions.Logging/1.5.0": {
+      "NLog.Config/4.6.4": {
         "dependencies": {
-          "Microsoft.Extensions.Logging": "2.2.0",
-          "NLog": "4.6.3"
-        },
-        "runtime": {
-          "lib/netstandard2.0/NLog.Extensions.Logging.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.5.0.960"
-          }
+          "NLog": "4.6.4",
+          "NLog.Schema": "4.6.4"
         }
       },
+      "NLog.Schema/4.6.4": {},
       "Remotion.Linq/2.2.0": {
         "dependencies": {
           "System.Collections": "4.0.11",
@@ -656,19 +651,26 @@
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
     },
-    "NLog/4.6.3": {
+    "NLog/4.6.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DYbJKfpjciXc/y177fou0XsSB+ZsPFW63c3ZtrYNScU2Sw3j4o12zVpm7p30PCaaSUMLdn1iYF1KbdPcdR0Ofg==",
-      "path": "nlog/4.6.3",
-      "hashPath": "nlog.4.6.3.nupkg.sha512"
+      "sha512": "sha512-aC4Hrp2g5fzrIl3aWGa/nBWZxlk/QUQLA8vfOLR6FdwgVhyQ8EOgSrq5ssKjEFb3qogx9m66v0pZPT1AaqBarQ==",
+      "path": "nlog/4.6.4",
+      "hashPath": "nlog.4.6.4.nupkg.sha512"
     },
-    "NLog.Extensions.Logging/1.5.0": {
+    "NLog.Config/4.6.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-E3knGebvY3EtY9RRaqi9673ox6ivEa/BqsHmpvSWPirJckSRQJcPQrRPpzIfI4h9OcILque9YXt0JPhJuArB+g==",
-      "path": "nlog.extensions.logging/1.5.0",
-      "hashPath": "nlog.extensions.logging.1.5.0.nupkg.sha512"
+      "sha512": "sha512-9fgbA2cvGJdLnpf/mEHmeAPpcvEgA872uDrioyIyD0VQWapcfksiFpdXf14YrSKALZTBumWGgliNlcdKm/PpSw==",
+      "path": "nlog.config/4.6.4",
+      "hashPath": "nlog.config.4.6.4.nupkg.sha512"
+    },
+    "NLog.Schema/4.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A3SR8ejg1lYl6cm0UF1q1n85F+YlImGtPSho4K3r5aHTDnuHutZfa6dnfg21OgjZfmt2RoD7RquwZTHnzcXWOQ==",
+      "path": "nlog.schema/4.6.4",
+      "hashPath": "nlog.schema.4.6.4.nupkg.sha512"
     },
     "Remotion.Linq/2.2.0": {
       "type": "package",

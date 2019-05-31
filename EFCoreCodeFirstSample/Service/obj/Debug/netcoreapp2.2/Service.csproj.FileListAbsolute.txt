@@ -22,3 +22,4 @@ C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\
 C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Service\obj\Debug\netcoreapp2.2\Service.csproj.CopyComplete
 C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Service\obj\Debug\netcoreapp2.2\Service.dll
 C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Service\obj\Debug\netcoreapp2.2\Service.pdb
+C:\My Projects\Asp.Net-Core-Web-Api-with-Token-Based-Auth\EFCoreCodeFirstSample\Service\bin\Debug\netcoreapp2.2\NLog.config
