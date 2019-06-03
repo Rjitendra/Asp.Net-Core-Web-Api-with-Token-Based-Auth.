@@ -2,7 +2,7 @@
 
 
 
-#In this tutorial we will be learn above thinks
+#This tutorial we will be learn above thinks
 
 1-How create token using JWT in asp.net core.
 
